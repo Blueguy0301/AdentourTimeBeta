@@ -39,7 +39,7 @@
     var browser = '<?php echo $user_browser;?>' ;
     browser = browser.toLowerCase();
     if(platform == '1mobile'){
-      window.location.replace("./Mobile/login.html");
+      window.location.replace("./mobile/login.html");
     } else{
       switch(browser){
         case 'msie':

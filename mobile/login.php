@@ -20,7 +20,7 @@
             <li style="margin-bottom:45px; margin-top: 105px; padding: 3px;"><input type="text"; placeholder="Username" id="USERNAME" class="input"></li>
             <li style="margin-bottom:45px"><input type="Password"; placeholder="Password" id="PASSWORD" class="input"></li>    
             <hr style="margin-bottom: 10px; margin-top: 10px;">
-            <li><button id="RDbtn1"class="login">LOGIN</button></li>
+            <li><button id="myButton"class="login">LOGIN</button></li>
           </ul>
         </form>
         <form action="" id="registerForm">
@@ -30,9 +30,14 @@
             <li style="margin-bottom:45px;"><input type="Password" placeholder="Confirm Password" id="PASSWORD" class="input"></li>    
             <li style="margin-bottom:45px;"><input type="email"placeholder="E-mail" id="E-mail" class="input"></li>
             <hr style="margin-bottom: 10px; ">
-            <li><button id="RDbtn1"class="login">SIGNUP</button></li>
+            <li><button id="myButton"class="login">SIGNUP</button></li>
           </ul>
         </form>
+        <script type="text/javascript">
+            document.getElementById("myButton").onclick = function () {
+                window.location.replace( "../contents.php");
+            };
+        </script>
       </div>
     </div>
   </div>
