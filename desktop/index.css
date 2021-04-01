@@ -1,0 +1,99 @@
+*{
+  max-height: fit-content;
+  margin: auto;
+}
+body{
+  background: url("https://wallpaperaccess.com/full/3286.jpg") no-repeat center center fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
+}
+.toggle{
+  height: 10px;
+}
+.content{
+  width: 100%;
+  max-height: 2%;
+}
+h1{
+  font-size: 50px;
+  color: red;
+  text-align: center;
+  opacity: 0;
+  transition: all .5s ease;
+}
+#BOX{
+  background: rgba(255,147,135,0.3);
+  background: linear-gradient(180deg, rgba(255,147,135,0.6) 0%, rgba(255,190,162,0.6) 25%, rgba(252,176,162,0.6) 50%, rgba(255,215,58,0.6) 77%, rgba(60,120,95,0.6) 100%);
+  width: fit-content;
+  height: 500px;
+  padding: 3rem 3rem 5rem 3rem; 
+  margin-right: auto;
+  opacity: 0;
+  transition: all 1.5s ease;
+  margin-top: 35px;
+
+}
+.login, a{
+  position: relative;
+  background-color: aquamarine;
+  font-family: inherit;
+  width: 50%;
+  padding: 1rem;
+  border: none;
+  transition: all .5s ease;
+  display: inline-block;
+  margin-bottom: auto;
+  margin-top: auto;
+}
+.login:hover{
+  border: none;
+  background-color: pink;
+  font-family: inherit;
+  padding: 1rem;
+  transition: all .5s ease;
+  cursor: pointer;
+}
+
+ul{
+  list-style-type: none;
+  font-size: 0px;
+  padding: 0px;
+}
+li{
+  text-align: center;
+}
+.input{
+  position:relative;
+  width: 60vh;
+  padding: 10px;
+  margin-bottom: 8px;
+  box-sizing: border-box;
+  text-align: center;
+}
+#loginForm {
+  left:0px;
+  }
+#registerForm {
+  left:500px;
+  top:-246px;
+  opacity: 0;
+ } 
+ form{
+   position: relative;
+   transition: all .5s ease;
+ }
+#transitionOL{
+  width: 220px;
+  height: 180px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+/*
+change this na pag 576px and below na yung width, 
+iba na ang properties niya.
+
+*/

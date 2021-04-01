@@ -1,0 +1,97 @@
+*{
+  max-height: fit-content;
+  margin: auto;
+}
+body{
+  background: url("/Mobile/pic1.jpg") no-repeat center center fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
+  overflow: hidden;
+}
+.toggle{
+  height: 10px;
+}
+.content{
+  overflow: hidden;
+  width: 100%;
+  max-height: 2%;
+}
+h1{
+  position: relative;
+  left: -40px;
+  font-size: 50px;
+  color: red;
+  text-align: center;
+  opacity: 0;
+  transition: all .5s ease;
+}
+#BOX{
+  background-color: rgba(199, 249, 255, 0.8);
+  width: 100vw;
+  height: 380px;
+  padding: 3rem 3rem 5rem 3rem; 
+  margin-right: auto;
+  opacity: 0;
+  transition: all 1.5s ease;
+  margin-top: 100px;
+}
+.login, .login1{
+  position: relative;
+  background-color: aquamarine;
+  font-family: inherit;
+  width: 50%;
+  padding: 1rem;
+  border: none;
+  transition: all .5s ease;
+  display: inline-block;
+  margin-bottom: auto;
+  margin-top: auto;
+}
+.login:hover, .login1:hover{
+  margin-bottom: 10px;
+  border: none;
+  background-color: pink;
+  font-family: inherit;
+  padding: 1rem;
+  transition: all .5s ease;
+}
+
+ul{
+  list-style-type: none;
+  font-size: 0px;
+  padding: 0px;
+}
+li{
+  text-align: center;
+}
+.input{
+  position:relative;
+  width: 60vh;
+  padding: 10px;
+  margin-bottom: 8px;
+  box-sizing: border-box;
+  text-align: center;
+}
+#loginForm {
+  left:-200px;
+  }
+#registerForm {
+  left:500px;
+  top:-245px;
+  opacity: 00;
+ } 
+ form{
+   position: relative;
+   transition: all .5s ease;
+   width: 50%;
+ }
+ .toggle{
+   position: relative;
+   left: -50px;
+ }
+ .login1{
+   position:relative;
+   left: 150px;
+ }
