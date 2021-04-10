@@ -52,10 +52,10 @@
           //MS EDGE  
           break;
         case 'chrome':
-                window.location.replace("./desktop/login.php");
+                window.location.replace("./desktopmode/login.php");
                 break;
                 default:
-                window.location.replace("./desktop/login.php");
+                window.location.replace("./desktopmode/login.php");
                   break;
                 }
       }
