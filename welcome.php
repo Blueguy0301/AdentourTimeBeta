@@ -39,7 +39,7 @@
     var browser = '<?php echo $user_browser;?>' ;
     browser = browser.toLowerCase();
     if(platform == '1mobile'){
-      window.location.replace("./desktop/login.php");
+      window.location.replace("./desktopmode/login.php");
     } else{
       switch(browser){
         case 'msie':
@@ -52,10 +52,10 @@
           //MS EDGE  
           break;
         case 'chrome':
-                window.location.replace("./desktop/login.php");
+                window.location.replace("./desktopmode/login.php");
                 break;
                 default:
-                window.location.replace("./desktop/login.php");
+                window.location.replace("./desktopmode/browser_not_supported.html");
                   break;
                 }
       }
