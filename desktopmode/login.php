@@ -18,7 +18,8 @@
         <button class="login" id="LOGIN">LOGIN</button><button class="login" id="SIGNUP">SIGNUP</button>
       </div>
       <div id="FORMS">
-        <form action="" id="loginForm" method ="POST" action="register.php"> <!-- change register.php to your filename. CASE SENSITIVE. -->
+        <form action="" id="loginForm" method ="POST" action="register.php"> 
+          <!-- change register.php to your filename. CASE SENSITIVE. -->
           <ul>
             <li style="margin-bottom:45px; margin-top: 105px; padding: 3px;"><input type="email"; placeholder="E-mail" name="E-mail" id="USERNAME" class="input"></li>
             <li style="margin-bottom:45px"><input type="text"; placeholder="name" id="name" class="input"></li>    
